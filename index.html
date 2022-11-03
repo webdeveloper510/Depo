@@ -1,29 +1,291 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  </head>
-  <body>
-    <header>
-        <div class="">
-            <div class="balance">
-                <img src="" class="img-fluid"/>
-                <p>₦65,000</p>
-            </div>
-            <div>
-                <img src="" class="img-fluid"/>
-            </div>
-            <div>
-                <img src="./assets/ph_gender-male.png" class="img-fluid"/>
-            </div>
-        </div>
-    </header>
-    <section class="">
+  
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BuzzBite</title>
+  <!-- favicon icon link  -->
+  <link rel="icon" type="image/x-icon" href="./assets/logo1.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
-    </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-  </body>
+  <!-- external css link -->
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+
+  <!-- Font family css links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container-fluid landing_page">
+    <div class="row g-0">
+      <div class="col-md-2">
+        <div class="sidebar pt-3">
+          <img src="./assets/logo.png" class="img-fluid" />
+          <div class="list mt-3">
+            <ul>
+              <li class="active"><img src="./assets/Home.png" class="img-fluid" /> Dashboard</li>
+              <li><img src="./assets/search.png" class="img-fluid" /> Marketplace</li>
+              <li><img src="./assets/wallet.png" class="img-fluid" /> Wallet</li>
+              <li><img src="./assets/meg.png" class="img-fluid" /> Messages</li>
+              <li><img src="./assets/profile-icon.png" class="img-fluid" /> Profile</li>
+              <li><img src="./assets/setting.png" class="img-fluid" /> Settings</li>
+            </ul>
+          </div>
+          <!-- Upgrade section start -->
+          <div class="Upgrade">
+            <p>Unlock more features now! Upgrade your plan
+              Upgrade Now</p>
+            <button class="btn btn-primary" type="button">Upgrade Now</button>
+          </div>
+          <div class="list">
+            <ul>
+              <li><img src="./assets/help.png" class="img-fluid" /> Help & Support</li>
+              <li><img src="./assets/logout.png" class="img-fluid" /> Logout</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-md-10">
+        <!-- Header Section start  -->
+        <header>
+          <div class="bg-white d-flex justify-content-end py-2 mb-3 px-3 align-items-sm-center">
+            <div class="balance me-2">
+              <img src="./assets/button.png" class="img-fluid" />
+              <p>₦65,000</p>
+            </div>
+            <div class="me-2">
+              <img src="./assets/notification.png" class="img-fluid" />
+            </div>
+            <div>
+              <img src="./assets/profile.png" class="img-fluid" />
+            </div>
+          </div>
+        </header>
+        <!-- Body Content section start  -->
+        <section class="job">
+          <div class="container-fluid ">
+            <div class="">
+              <p> <img src="./assets/Group 34140.png" class="img-fluid myjob"> My Job</p>
+              <div class="">
+                <div class="row">
+                  <!-- Left side section start  -->
+                  <div class="col-md-8">
+                    <!-- Mercedes’ section start -->
+                    <div class="card">
+                      <h5>Benz Distronic PLUS (mixed offer price - Delivered) </h5>
+                      <div class="Mercedes">
+                        <div class=" g-0 row">
+                          <div class="col-md-6">
+                            <img src="./assets/Group 34324.png" class="img-fluid">
+                          </div>
+                          <div class="col-md-6">
+                            <p>Mercedes’ flagship model will be presented to the world as the global benchmark for
+                              luxury
+                              motoring. Focusing on what the S-Class Mercedes stands for as an icon of future mobility.
+                              The
+                              campaign, which launched on TV towards the end of May, aimed to articulate Monzo’s brand
+                              voice and
+                              promise for the first time. It included four TV spots, one 60-second and three 30-</p>
+                          </div>
+                        </div>
+
+                        <p>second versions,
+                          that promoted the brand while also highlighting features such as money management and tackling
+                          perceived barriers to opening a digital bank account such as speed and ease.</p>
+                      </div>
+                      <!-- Budget Spent section start -->
+                      <div class="Budget">
+                        <p>Budget Spent</p>
+                        <p>76%</p>
+                      </div>
+                      <div class="progress" style="height: 5px;">
+                        <div class="progress-bar" role="progressbar" aria-label="Example 1px high" style="width: 76%;"
+                          aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <div class="text-center mt-3">
+                        <a href="" class="details">View full details </a>
+                      </div>
+                    </div>
+                    <!-- My Content section start -->
+                    <div class="card mt-4">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <h4>My Content</h4>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="completed">
+                            <img src="./assets/message-text.png" class="img-fluid" />
+                            <p>Completed Date: 10/06/2022</p>
+                          </div>
+
+                        </div>
+                      </div>
+                      <div class="table-responsive">
+                        <table class="table table-striped table-borderless text-center mycontent">
+                          <thead>
+                            <tr>
+                              <th scope="col">#</th>
+                              <th scope="col">Content</th>
+                              <th scope="col">Status</th>
+                              <th scope="col">Impressions</th>
+                              <th scope="col">Engagement</th>
+                              <th scope="col">Earnings</th>
+                              <th scope="col">Action</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr class="align-baseline">
+                              <td scope="row">1</td>
+                              <td><img src="./assets/adult-attractive-beautiful-871495 3.png" width="50px" /></td>
+                              <td>Completed</td>
+                              <td>484</td>
+                              <td>67%</td>
+                              <td>₦3,400</td>
+                              <td><a href=""> View</a></td>
+                            </tr>
+                            <tr class="align-baseline">
+                              <td scope="row">2</td>
+                              <td><img src="./assets/adult-attractive-beautiful-871495 3.png" width="50px" /></td>
+                              <td>Completed</td>
+                              <td>484</td>
+                              <td>67%</td>
+                              <td>₦3,400</td>
+                              <td><a href=""> View</a></td>
+                            </tr>
+                            <tr class="align-baseline">
+                              <td scope="row">3</td>
+                              <td><img src="./assets/adult-attractive-beautiful-871495 3.png" width="50px" /></td>
+                              <td>Completed</td>
+                              <td>484</td>
+                              <td>67%</td>
+                              <td>₦3,400</td>
+                              <td><a href=""> View</a></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+
+                    </div>
+                  </div>
+                  <!-- Right side  section start -->
+                  <div class="col-md-4">
+                    <!-- Statistics section start -->
+                    <div class="card">
+                      <h5 class="mb-3">Statistics</h5>
+                      <div class="row">
+                        <div class="col-6">
+                          <div class="Statistics">
+                            <div class="content-img"><img src="./assets/stat.png" class="img-fluid" /></div>
+                            <div class="Content">
+                              <p>Active Content</p>
+                              <h6>3</h6>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6">
+                          <div class="Statistics">
+                            <div class="content-img"><img src="./assets/stat1.png" class="img-fluid" /></div>
+                            <div class="Content">
+                              <p>Impressions</p>
+                              <h6>968</h6>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6">
+                          <div class="Statistics">
+                            <div class="content-img"><img src="./assets/stat2.png" class="img-fluid" /></div>
+                            <div class="Content">
+                              <p>Engagements</p>
+                              <h6>67%</h6>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6">
+                          <div class="Statistics">
+                            <div class="content-img"><img src="./assets/stat3.png" class="img-fluid" /></div>
+                            <div class="Content">
+                              <p>Earnings</p>
+                              <h6>₦6,800</h6>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="btn btn-primary" type="button">End Job</button>
+                    </div>
+                    <!-- Campaign Details Section start -->
+                    <div class="card mt-4">
+                      <h5 class="mb-3">Campaign Details</h5>
+                      <table class="table table-borderless Campaign">
+                        <tbody>
+                          <tr>
+                            <th class="w-50" scope="row"><img src="./assets/video-octagon.png" class="img-fluid" />
+                              Brand:</th>
+                            <td class="w-50">BuzzBite</td>
+                          </tr>
+                          <tr>
+                            <th class="w-50" scope="row"> <img src="./assets/gps.png" class="img-fluid" /> Target:</th>
+                            <td class="w-50">50,000</td>
+                          </tr>
+                          <tr>
+                            <th scope="row"><img src="./assets/menu-board.png" class="img-fluid" /> Campaign Type:</th>
+                            <td class="w-50">Impressions</td>
+                          </tr>
+                          <tr>
+                            <th class="w-50" scope="row"> <img src="./assets/calendar.png" class="img-fluid" /> Content
+                              Due:</th>
+                            <td class="w-50">31/05/2022</td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                    </div>
+
+                    <!-- Influencer Requirements section start -->
+                    <div class="card mt-4">
+                      <h5 class="mb-3">Influencer Requirements</h5>
+                      <table class="table table-borderless Influencer">
+                        <tbody>
+                          <tr>
+                            <th class="w-50" scope="row"> <img src="./assets/fluent_calendar-agenda-28-regular.png"
+                                class="img-fluid" /> Age:</th>
+                            <td class="w-50">18-24</td>
+                          </tr>
+                          <tr>
+                            <th class="w-50" scope="row"> <img src="./assets/ph_gender-male.png" class="img-fluid" />
+                              Gender:</th>
+                            <td class="w-50">Everyone</td>
+                          </tr>
+                          <tr>
+                            <th class="w-50" scope="row"> <img src="./assets/global.png" class="img-fluid" /> Location:
+                            </th>
+                            <td class="w-50"> Lagos, Nigeria.</td>
+                          </tr>
+                          <tr>
+                            <th class="w-50" scope="row"><img src="./assets/note-2.png" class="img-fluid" /> Niche:</th>
+                            <td class="w-50">Healthcare, Beauty, Finance, Fashion.</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
